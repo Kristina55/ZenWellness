@@ -1,0 +1,351 @@
+.eat-healthy {
+  display: inline-block;
+  width: 75%;
+  font-size: 60px;
+  color: #11363d;
+  font-weight: bold;
+}
+.bullet-points,
+.zen-different-points {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  list-style: none;
+  padding: 0px;
+}
+.bullet-points > li {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #0f363d;
+}
+.fa-check {
+  letter-spacing: 1px;
+}
+.check {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 18px;
+  width: 8px;
+  border-width: 3px;
+  border-bottom: 3px solid #56b74a;
+  border-right: 3px solid #56b74a;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+.home-container {
+  background-color: #fafafa;
+}
+.header-section {
+  background-color: #d7eff3;
+}
+.header,
+.zen-different {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn-more,
+.buy-now {
+  width: 225px;
+  display: block;
+  background-color: #56b74a;
+  padding: 10px 30px 10px 30px;
+  border-radius: 3px;
+  color: white;
+  font-size: 19px;
+  border: none;
+}
+
+.learn-more {
+  background-color: #0f363c;
+  margin-bottom: 7px;
+}
+
+.apple-lady {
+  align-self: flex-end;
+}
+.apple-lady > img {
+  max-height: 700px;
+}
+.intro {
+  align-self: center;
+}
+/* Logos */
+.logo-title {
+  margin-top: 70px;
+  height: 20vh;
+  /* border-bottom: 1px solid #80808040;
+  border-top: 1px solid #80808059; */
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin-bottom: 18px;
+}
+.title,
+.col-md-2 {
+  text-align: center;
+}
+
+.title > div > h1 {
+  font-size: 15px;
+  color: gray;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font: bold 'Sharp Sans', Arial, sans-serif;
+}
+
+/* Research  */
+.research {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.research-col {
+  border-radius: 13px;
+  padding: 86px;
+  /* background-color: #eceaea6b; */
+}
+
+.research-col > p,
+h1,
+h2 {
+  color: #11363d;
+  margin-bottom: 13px;
+}
+.research-col > h1 {
+  color: #56b74a;
+}
+.research-col > p {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.research-col > h2 {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.research-col > h4 {
+  color: #11363d;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Carousel col */
+.separate-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.separate-logos > .col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+.separate-logos > div > img {
+  max-width: 200px;
+  margin-right: 10px;
+}
+/* Zen is Different */
+.zen-different-container {
+  margin: 0px;
+  background-image: url(../images/picture1.jpg);
+  background-size: cover;
+}
+
+.zen-different-col {
+  margin-left: 60px;
+  background-color: #0f363db8;
+  padding: 10px;
+}
+
+.zen-different-col > div {
+  margin: 60px;
+}
+.zen-different-col h1,
+p,
+.zen-different-points > li,
+.different {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.zen-different-col h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+.zen-different-col p {
+  font-size: 17px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.zen-different-points > li {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.different {
+  margin-right: 10px;
+}
+/* Footer  */
+.footer-container {
+  background-color: #d7eff3;
+}
+.footer {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-col {
+  text-align: center;
+}
+.footer-col > h1 {
+  font-size: 50px;
+  color: #11363d;
+}
+.footer-col > h2 {
+  font-size: 26px;
+  color: #11363d;
+  margin-bottom: 30px;
+}
+.start-free,
+.why-works {
+  display: inline-block;
+  background-color: #26b54c;
+  padding: 10px 30px 10px 30px;
+  border-radius: 3px;
+  color: white;
+  font-size: 19px;
+  border: none;
+}
+.why-works {
+  margin-left: 20px;
+  background-color: #0f363c;
+}
+
+@media screen and (max-width: 992px) {
+  .apple-lady {
+    display: none;
+  }
+  .logo-title {
+    margin-top: 0px;
+  }
+  .research {
+    height: 800px;
+    display: block;
+  }
+  .research-col,
+  .carousel-col {
+    margin-top: 50px;
+  }
+  .footer-col > h1 {
+    font-size: 44px;
+  }
+  .footer-col > h2 {
+    font-size: 22px;
+  }
+  .start-free,
+  .why-works {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    margin-left: 10px;
+  }
+  .eat-healthy {
+    font-size: 48px;
+  }
+  .research {
+    height: 760px;
+  }
+  .research-col {
+    padding: 28px;
+    margin-top: 0px;
+  }
+  .research-col > h4 {
+    font-size: 15px;
+  }
+  .zen-different-col > div {
+    margin: 40px;
+  }
+  .zen-different-points > li {
+    font-size: 14px;
+  }
+  .zen-different-col p {
+    font-size: 14px;
+  }
+  .zen-different-col h1 {
+    font-size: 32px;
+  }
+  .fa-check {
+    margin-right: 5px;
+  }
+  .footer {
+    margin-bottom: 50px;
+  }
+  .footer-col > h1 {
+    font-size: 31px;
+  }
+  .footer-col > h2 {
+    font-size: 19px;
+  }
+  .research-col > h2 {
+    font-size: 17px;
+  }
+  .research-col > h1 {
+    font-size: 26px;
+  }
+  .title > div > h1 {
+    font-size: 13px;
+  }
+  .zen-different-col {
+    margin-left: 0px;
+  }
+  .intro {
+    margin-left: 40px;
+  }
+  .navbar-default .navbar-toggle {
+    margin-right: 9px;
+  }
+  .logo {
+    width: 145px;
+  }
+  .logo-title {
+    margin-top: 30px;
+  }
+  .separate-logos {
+    margin-top: 30px;
+  }
+  .separate-logos > div > img {
+    max-width: 150px;
+    margin-right: 0px;
+  }
+  .separate-logos > .col-md-4 {
+    margin-left: 20px;
+  }
+  .stanford-logo,
+  .hopkins-logo {
+    padding: 0px;
+    margin-left: 0px !important;
+  }
+  .mayo-logo,
+  .harvard-logo {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
+  .facebook-logo {
+    padding-right: 0px;
+  }
+}

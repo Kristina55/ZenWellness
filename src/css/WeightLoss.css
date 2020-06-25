@@ -1,0 +1,355 @@
+.lossVideos {
+  display: flex;
+  align-items: center;
+  height: 220px;
+}
+
+.weight-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.weight-picture {
+  max-height: 100%;
+  padding-left: 0px;
+}
+.weight-picture > img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.weight-picture > h1 {
+  font-size: 29px;
+  color: black;
+}
+.full-program > ul {
+  padding: 0px;
+  list-style: none;
+}
+.full-program > ul > li {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #3c4858de;
+}
+
+.full-program > h1 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.starter-program {
+  font-size: 27px;
+  background-color: #547c86;
+  border-radius: 0px 0px 0px 0px;
+  color: white;
+  padding: 15px 30px;
+  font-family: 'Verdana', Sans-serif;
+  font-weight: 500;
+  border: none;
+}
+.weight-check {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 14px;
+  width: 8px;
+  border-width: 3px;
+  border-bottom: 3px solid #3c4858;
+  border-right: 3px solid #3c4858;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.weight-learn-more,
+.weight-buy-now,
+.weight-start-free {
+  width: 160px;
+  font-family: 'Verdana', Sans-serif;
+  background-color: #75c391;
+  border-radius: 13px 13px 13px 13px;
+  color: white;
+  font-size: 16px;
+  padding: 15px 30px;
+  border: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.full-program > h6 {
+  position: absolute;
+  right: 262px;
+}
+
+.pop-up {
+  font-size: 11px;
+  position: absolute;
+  display: inline;
+  right: 37px;
+  height: 120px;
+  background-color: white;
+  width: 217px;
+  bottom: 7px;
+  border-radius: 4px;
+  padding-top: 14px;
+}
+.fa-question-circle {
+  margin-left: 8px;
+}
+.weight-learn-more {
+  background-color: #75c391;
+}
+.weight-buy-now,
+.weight-start-free {
+  background-color: #f17a2f;
+}
+
+.diet-section {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-img {
+  text-align: center;
+}
+.diet-img {
+  text-align: right;
+}
+.book-img > a > img,
+.diet-img > a > img {
+  max-width: 270px;
+}
+
+.book-text > p,
+.diet-text > p {
+  color: #000000d1;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.diet-text {
+  text-align: right;
+}
+
+.diet-text > h1,
+.book-text > h1 {
+  font-family: 'Verdana', Sans-serif;
+  font-size: 37px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.weight-videos > a > video {
+  margin-left: 30px;
+  filter: opacity(100%);
+}
+.weight-videos {
+  margin-top: 40px;
+}
+
+.orange {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  background-color: #ff7b24;
+}
+.zen-program {
+  margin-top: 70px;
+}
+.zen-program > h1 {
+  font-family: 'Verdana', Sans-serif;
+  text-align: center;
+  color: #75c391;
+}
+.lossIcon {
+  display: inline-block;
+}
+.lossIcon > img {
+  max-width: 125px;
+}
+
+.weightLoss-section {
+  display: flex;
+  align-items: center;
+}
+
+.weightLoss-ul {
+  position: absolute;
+  left: 190px;
+}
+
+.weightLoss-ul > li {
+  font-size: 16px;
+}
+.loss-zen-executive {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('../images/weightLoss.jpg');
+  background-size: cover;
+  margin-top: 110px;
+}
+.loss-zen-executive > div {
+  background-color: #0000008c;
+  padding: 40px;
+}
+.loss-zen-executive > div > h1 {
+  color: white;
+  margin-bottom: 40px;
+}
+.loss-zen-executive-p {
+  margin-bottom: 20px;
+}
+.loss-zen-executive-p > p {
+  font-size: 19px;
+  display: inline-block;
+  margin-left: 30px;
+}
+.loss-zen-executive-p > p > i {
+  margin-right: 8px;
+}
+.loss-footer-logos {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+.loss-footer-logos > div > img {
+  max-width: 180px;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .full-program > h6 {
+    right: 147px;
+  }
+  .pop-up {
+    bottom: 70px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .full-program > h6 {
+    right: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .weight-section,
+  .diet-section,
+  .lossVideos,
+  .loss-footer-logos {
+    display: block;
+  }
+  .weight-section {
+    height: 773px;
+  }
+  .starter-program {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .full-program > h1 {
+    font-size: 19px;
+  }
+  .full-program > ul > li {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .weight-learn-more {
+    display: inline-block;
+  }
+  .weight-learn-more,
+  .weight-buy-now,
+  .weight-start-free {
+    margin-left: 7px;
+    margin-top: 10px;
+  }
+
+  .full-program > h6 {
+    position: absolute;
+    right: 45px;
+  }
+  .full-program,
+  .weight-picture {
+    padding: 0px;
+  }
+  .pop-up {
+    height: 120px;
+    color: white;
+    right: 30px;
+    background-color: #7593a2;
+  }
+  .weight-picture > h1 {
+    margin-top: 40px;
+    font-size: 21px;
+    margin-bottom: 30px;
+  }
+  .diet-section {
+    margin-top: 0px;
+  }
+  .book-img > a > img {
+    max-width: 200px;
+  }
+  .book-text > p,
+  .diet-text > p {
+    font-size: 14px;
+  }
+  .diet-text > h1,
+  .book-text > h1 {
+    font-family: 'Verdana', Sans-serif;
+    font-size: 22px;
+  }
+  .diet-text {
+    text-align: unset;
+  }
+  .diet-img > img {
+    display: none;
+  }
+  .lossIcon > img {
+    display: none;
+  }
+  .videoLoss-section-text {
+    font-size: 12px;
+    margin-left: 16px;
+  }
+  .orange {
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+  }
+  .video-col-loss {
+    margin-top: 79px;
+    text-align: center;
+  }
+  .weightLoss-ul {
+    left: 0px;
+  }
+  .lossVideos {
+    height: 308px;
+  }
+  .weightLoss-ul > li {
+    font-size: 10px;
+  }
+  .loss-footer-logos {
+    margin-top: 10px;
+  }
+  .loss-footer-logos > div > img {
+    max-width: 163px;
+  }
+  .loss-zen-executive > div > h1 {
+    font-size: 17px !important;
+  }
+  .loss-zen-executive-p > p {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+  .zen-program > h1 {
+    font-size: 25px;
+  }
+}

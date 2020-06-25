@@ -1,0 +1,43 @@
+.payment-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.payment-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.payment-ul {
+  font-family: 'Verdana', Sans-serif;
+  display: inline-block;
+  list-style: none;
+  padding-left: 0px;
+  text-align: left;
+  font-size: 17px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+.payment-ul > li > i {
+  margin-right: 10px;
+}
+
+.main {
+  background-color: #d7eff3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.payment-container {
+  min-height: 100vh;
+  margin-top: 100px;
+}
+
+.payment-text > h1 {
+  font-family: 'Verdana', Sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}

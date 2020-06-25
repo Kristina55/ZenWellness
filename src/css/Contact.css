@@ -1,0 +1,125 @@
+.contact-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+.zen-logo-contact {
+  margin-bottom: 23px;
+}
+.contact-bullet-points {
+  padding-left: 0px;
+  margin-top: 30px;
+}
+.contact-bullet-points > li {
+  color: #53524fd1;
+  list-style: none;
+  font-size: 17px;
+  margin-bottom: 7px;
+}
+.contact-bullet-points > li > i {
+  color: #3fa9b8;
+  margin-right: 10px;
+}
+.contact-section > div > p {
+  color: #53524fd1;
+  font-size: 22px;
+  font-weight: 400;
+}
+.contact-form-section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../images//blue-bg.png');
+  background-size: cover;
+}
+.contact-form {
+  height: 400px;
+  margin-left: 40px;
+}
+.contact-form > h1 {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+.contact-form > p {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+.form-group {
+  padding-right: 0px;
+}
+.form-control {
+  border-radius: 2px;
+  background-color: transparent;
+  border-color: #ffffff9e;
+}
+
+/* white placeholder */
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+.form-control:-moz-placeholder {
+  color: white;
+}
+.form-control::-moz-placeholder {
+  color: white;
+}
+.form-control:-ms-input-placeholder {
+  color: white;
+}
+.form-control::-ms-input-placeholder {
+  color: white;
+}
+
+.form-group > textarea {
+  height: 150px;
+}
+.contact-button {
+  text-align: center;
+}
+.contact-button > button {
+  text-align: right;
+  background-color: #f17930;
+  border-radius: 2px;
+  color: white;
+  font-size: 14px;
+  padding: 10px 30px;
+  border: none;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .contact-section {
+    display: block;
+  }
+  .zen-logo-contact {
+    display: none;
+  }
+  .contact-section > div > p {
+    color: #53524fd1;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 44px;
+  }
+  .contact-bullet-points {
+    text-align: center;
+  }
+  .contact-bullet-points > li {
+    font-size: 15px;
+  }
+  .contact-form {
+    height: 500px;
+    margin-left: 0px;
+  }
+  .contact-section > .col-md-4 {
+    margin-bottom: 30px;
+  }
+  .contact-form > h1 {
+    font-size: 18px;
+  }
+}

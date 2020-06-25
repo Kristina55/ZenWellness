@@ -1,0 +1,167 @@
+.women-page {
+  background-color: #f8f8f8;
+}
+.women-picture {
+  background-image: url('../images/8.jpg');
+  background-size: cover;
+}
+.women-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.women-text {
+  background-color: #0000008a;
+  padding: 60px;
+  letter-spacing: 1px;
+  font-size: 32px;
+  color: white;
+}
+.learn-more-women {
+  width: 200px;
+  background-color: #56b74a;
+  padding: 10px 30px 10px 30px;
+  border-color: #56b74a;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.women-section-text {
+  background-color: #f8f8f8;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.women-health-text {
+  text-align: center;
+  color: #133d4c;
+}
+.p1,
+.p2 {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: gray;
+}
+.figure {
+  width: 10px;
+  height: 70px;
+  display: inline-block;
+  background-color: #519c8c;
+  margin-right: 20px;
+}
+.library-text {
+  display: inline-block;
+}
+.learning-library {
+  font-size: 25px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: #133d4c;
+  font-weight: bold;
+}
+.comfort {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin-top: 0px;
+  color: #133d4c;
+  font-weight: bold;
+}
+.odd,
+.even {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+}
+.odd {
+  background-color: #3da4e3;
+}
+.even,
+.even10 {
+  background-color: #75c391;
+}
+.even10 {
+  padding: 10px 11px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.video-section-text {
+  font-size: 22px;
+  display: inline-block;
+  margin-left: 30px;
+  color: #133d4c;
+}
+.videoLoss-section-text {
+  font-size: 22px;
+  display: inline-block;
+  margin-left: 30px;
+  color: #133d4c;
+  font-family: 'Verdana', Sans-serif;
+  font-weight: bold;
+}
+.videos {
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+.video-col {
+  margin-bottom: 20px;
+}
+
+video {
+  filter: opacity(60%);
+}
+
+@media screen and (max-width: 500px) {
+  .women-section-text {
+    height: 710px;
+  }
+  .p1,
+  .p2 {
+    font-size: 14px;
+  }
+  .women-text {
+    font-size: 22px;
+    background-color: #0000008a;
+    padding: 38px;
+  }
+  .videos {
+    display: block;
+  }
+  .video-col {
+    text-align: center;
+  }
+  .video-section-text {
+    margin: 0px 0px 0px 10px;
+    font-size: 14px;
+  }
+  .odd,
+  .even {
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+  }
+  .comfort {
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+  .learning-library {
+    font-size: 18px;
+  }
+  .library-text {
+    width: 90%;
+  }
+  .figure {
+    height: 75px;
+  }
+  .women-health-text {
+    font-size: 29px;
+    margin-bottom: 28px;
+  }
+}
